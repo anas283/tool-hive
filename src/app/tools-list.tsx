@@ -29,7 +29,7 @@ export const tools = [
     icon: (
       <CaseSensitive className="ease-in-out duration-150 group-hover:text-white" />
     ),
-    link: "",
+    link: "lorem-ipsum-generator",
   },
   {
     name: "Image Compressor",
