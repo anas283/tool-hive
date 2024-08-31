@@ -53,7 +53,7 @@ export const tools = [
     icon: (
       <ListTodo className="ease-in-out duration-150 group-hover:text-white" />
     ),
-    link: "",
+    link: "todo-list",
   },
   {
     name: "Color Palette",
