@@ -7,6 +7,7 @@ import {
   ListTodo,
   NotebookPen,
   Palette,
+  QrCode,
 } from "lucide-react";
 
 export const tools = [
@@ -61,5 +62,12 @@ export const tools = [
       <Palette className="ease-in-out duration-150 group-hover:text-white" />
     ),
     link: "",
+  },
+  {
+    name: "QR Code Generator",
+    icon: (
+      <QrCode className="ease-in-out duration-150 group-hover:text-white" />
+    ),
+    link: "qr-code-generator",
   },
 ];
