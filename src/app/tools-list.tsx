@@ -47,7 +47,7 @@ export const tools = [
     icon: (
       <NotebookPen className="ease-in-out duration-150 group-hover:text-white" />
     ),
-    link: "",
+    link: "notes",
   },
   {
     name: "To-Do List",
