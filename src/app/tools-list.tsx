@@ -35,7 +35,7 @@ export const tools = [
   {
     name: "Image Compressor",
     icon: <Image className="ease-in-out duration-150 group-hover:text-white" />,
-    link: "",
+    link: "image-compressor",
   },
   {
     name: "File Compressor",
