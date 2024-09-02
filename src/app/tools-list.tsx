@@ -61,7 +61,7 @@ export const tools = [
     icon: (
       <Palette className="ease-in-out duration-150 group-hover:text-white" />
     ),
-    link: "",
+    link: "color-palette",
   },
   {
     name: "QR Code Generator",
