@@ -2,6 +2,7 @@ import {
   Calculator,
   CaseSensitive,
   File,
+  FileJson,
   Image,
   LetterText,
   ListTodo,
@@ -19,13 +20,6 @@ export const tools = [
     link: "word-counter",
   },
   {
-    name: "Word Generator",
-    icon: (
-      <LetterText className="ease-in-out duration-150 group-hover:text-white" />
-    ),
-    link: "",
-  },
-  {
     name: "Lorem Ipsum Generator",
     icon: (
       <CaseSensitive className="ease-in-out duration-150 group-hover:text-white" />
@@ -36,11 +30,6 @@ export const tools = [
     name: "Image Compressor",
     icon: <Image className="ease-in-out duration-150 group-hover:text-white" />,
     link: "image-compressor",
-  },
-  {
-    name: "File Compressor",
-    icon: <File className="ease-in-out duration-150 group-hover:text-white" />,
-    link: "",
   },
   {
     name: "Notes",
@@ -69,5 +58,12 @@ export const tools = [
       <QrCode className="ease-in-out duration-150 group-hover:text-white" />
     ),
     link: "qr-code-generator",
+  },
+  {
+    name: "JSON Formatter",
+    icon: (
+      <FileJson className="ease-in-out duration-150 group-hover:text-white" />
+    ),
+    link: "json-formatter",
   },
 ];
