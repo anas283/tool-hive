@@ -6,6 +6,7 @@ import {
   Image,
   LetterText,
   ListTodo,
+  LockKeyhole,
   NotebookPen,
   Palette,
   QrCode,
@@ -65,5 +66,12 @@ export const tools = [
       <FileJson className="ease-in-out duration-150 group-hover:text-white" />
     ),
     link: "json-formatter",
+  },
+  {
+    name: "Password Generator",
+    icon: (
+      <LockKeyhole className="ease-in-out duration-150 group-hover:text-white" />
+    ),
+    link: "password-generator",
   },
 ];
