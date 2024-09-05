@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Instrument_Sans } from 'next/font/google'
 import "./globals.css";
+import Navbar from "./navbar";
 
 const instrumentSans = Instrument_Sans({ subsets: ['latin'] })
 
@@ -16,7 +17,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={instrumentSans.className}>{children}</body>
+      <body className={instrumentSans.className}>
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }

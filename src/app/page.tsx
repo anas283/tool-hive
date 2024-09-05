@@ -3,7 +3,7 @@ import { tools } from "./tools-list";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center p-5 md:p-10 lg:p-24">
+    <main className="flex min-h-screen flex-col items-center py-20 max-w-5xl mx-auto px-4">
       <div className="flex flex-col gap-5">
         <h1 className="text-5xl text-slate-900 text-center font-bold leading-tight">
           Your Digital Toolbox, <br /> Reimagined
