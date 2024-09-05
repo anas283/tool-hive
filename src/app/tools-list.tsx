@@ -20,6 +20,34 @@ export const tools = [
     link: "tailwind-gradient-generator",
   },
   {
+    name: "Password Generator",
+    icon: (
+      <LockKeyhole className="ease-in-out duration-150 group-hover:text-white" />
+    ),
+    link: "password-generator",
+  },
+  {
+    name: "QR Code Generator",
+    icon: (
+      <QrCode className="ease-in-out duration-150 group-hover:text-white" />
+    ),
+    link: "qr-code-generator",
+  },
+  {
+    name: "Color Palette",
+    icon: (
+      <Palette className="ease-in-out duration-150 group-hover:text-white" />
+    ),
+    link: "color-palette",
+  },
+  {
+    name: "JSON Formatter",
+    icon: (
+      <FileJson className="ease-in-out duration-150 group-hover:text-white" />
+    ),
+    link: "json-formatter",
+  },
+  {
     name: "Word Counter",
     icon: (
       <Calculator className="ease-in-out duration-150 group-hover:text-white" />
@@ -51,33 +79,5 @@ export const tools = [
       <ListTodo className="ease-in-out duration-150 group-hover:text-white" />
     ),
     link: "todo-list",
-  },
-  {
-    name: "Color Palette",
-    icon: (
-      <Palette className="ease-in-out duration-150 group-hover:text-white" />
-    ),
-    link: "color-palette",
-  },
-  {
-    name: "QR Code Generator",
-    icon: (
-      <QrCode className="ease-in-out duration-150 group-hover:text-white" />
-    ),
-    link: "qr-code-generator",
-  },
-  {
-    name: "JSON Formatter",
-    icon: (
-      <FileJson className="ease-in-out duration-150 group-hover:text-white" />
-    ),
-    link: "json-formatter",
-  },
-  {
-    name: "Password Generator",
-    icon: (
-      <LockKeyhole className="ease-in-out duration-150 group-hover:text-white" />
-    ),
-    link: "password-generator",
-  },
+  }
 ];

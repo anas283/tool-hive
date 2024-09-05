@@ -7,9 +7,9 @@ export const metadata: Metadata = {
 
 const WordCounterPage = () => {
   return (
-    <>
+    <div className="max-w-md mx-auto flex justify-center px-4 py-8">
       <WordCounter />
-    </>
+    </div>
   );
 };
 
