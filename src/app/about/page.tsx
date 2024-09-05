@@ -28,9 +28,9 @@ const About = () => {
         <h1 className="font-bold text-3xl">Simple. Efficient. Accessible.</h1>
         <p>
           At Toolhive, we keep things human. Our platform is intuitive and
-          user-friendly, meaning you don’t need to be tech-savvy to use it.
+          user-friendly, meaning you don&lsquo;t need to be tech-savvy to use it.
           Every tool is designed with simplicity in mind, making it easy for
-          anyone to get started. Whether you're working on a project or managing
+          anyone to get started. Whether you&lsquo;re working on a project or managing
           daily tasks, Toolhive is here to help you work smarter, not harder.
         </p>
       </div>
