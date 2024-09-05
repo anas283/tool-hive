@@ -10,7 +10,7 @@ export default function Home() {
         </h1>
         <h5 className="text-slate-600 text-center text-sm max-w-lg mx-auto">
           Unlock the power of efficiency with our all-in-one digital toolkit.
-          We've got everything you need to streamline your workflow and boost productivity.
+          We&lsquo;ve got everything you need to streamline your workflow and boost productivity.
         </h5>
       </div>
 
