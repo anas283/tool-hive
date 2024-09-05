@@ -1,10 +1,9 @@
 import {
   Calculator,
   CaseSensitive,
-  File,
+  Code,
   FileJson,
   Image,
-  LetterText,
   ListTodo,
   LockKeyhole,
   NotebookPen,
@@ -13,6 +12,13 @@ import {
 } from "lucide-react";
 
 export const tools = [
+  {
+    name: "Tailwind Gradient Generator",
+    icon: (
+      <Code className="ease-in-out duration-150 group-hover:text-white" />
+    ),
+    link: "tailwind-gradient-generator",
+  },
   {
     name: "Word Counter",
     icon: (
