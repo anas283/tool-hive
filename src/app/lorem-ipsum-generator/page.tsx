@@ -7,9 +7,9 @@ export const metadata: Metadata = {
 
 const LoremIpsumGeneratorPage = () => {
   return (
-    <>
+    <div className="max-w-2xl mx-auto min-h-[calc(100vh-57px)] flex items-center px-4 py-8">
       <LoremIpsumGenerator />
-    </>
+    </div>
   )
 }
 

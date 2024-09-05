@@ -51,7 +51,7 @@ const LoremIpsumGenerator = () => {
   };
   
   return (
-    <div className="max-w-2xl mx-auto py-40">
+    <div>
       <h1 className="text-3xl text-center font-bold">Lorem Ipsum Generator</h1>
       <h6 className="text-gray-500 text-sm text-center mt-3">
         Lorem Ipsum is simply dummy text of the printing and typesetting industry. 

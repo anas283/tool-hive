@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 
 const PasswordGeneratorPage = () => {
   return (
-    <div>
+    <div className="max-w-md mx-auto min-h-[calc(100vh-57px)] flex items-center px-4 py-8">
       <PasswordGenerator />
     </div>
   );

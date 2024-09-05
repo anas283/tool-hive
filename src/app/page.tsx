@@ -5,8 +5,9 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center py-20 max-w-5xl mx-auto px-4">
       <div className="flex flex-col gap-5">
-        <h1 className="text-5xl text-slate-900 text-center font-bold leading-tight">
-          Your Digital Toolbox, <br /> Reimagined
+        <h1 className="text-5xl md:text-6xl text-slate-900 text-center font-bold">
+          Your Ultimate <br />
+          <span className="bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent">Digital Toolbox</span>
         </h1>
         <h5 className="text-slate-600 text-center text-sm max-w-lg mx-auto">
           Unlock the power of efficiency with our all-in-one digital toolkit.

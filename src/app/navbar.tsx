@@ -9,7 +9,7 @@ const Navbar = () => {
           <Link href="/" className="flex flex-row gap-2 items-center">
             <Hammer />
             <span className="font-bold">
-              Toolbox
+              Toolhive
             </span>
           </Link>
           <div className="text-sm flex gap-8">
@@ -21,7 +21,7 @@ const Navbar = () => {
             <Link
               href="about"
             >
-              What is Toolbox?
+              What is Toolhive?
             </Link>
           </div>
         </div>

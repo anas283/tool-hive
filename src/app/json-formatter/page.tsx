@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 
 const JsonFormatterPage = () => {
   return (
-    <div>
+    <div className="max-w-2xl mx-auto min-h-[calc(100vh-57px)] flex justify-center px-4 py-8">
       <JsonFormatterValidator />
     </div>
   );

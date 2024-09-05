@@ -23,7 +23,7 @@ const WordCounter = () => {
   }, [text]);
 
   return (
-    <div className="max-w-md mx-auto mt-8">
+    <div className="max-w-md mx-auto my-10">
       <h1 className="text-2xl font-bold">Word Counter</h1>
       <textarea
         className="w-full h-40 p-2 border rounded mt-4"

@@ -62,7 +62,7 @@ const Notes: React.FC = () => {
   };
 
   return (
-    <div className="max-w-xl mx-auto p-4">
+    <div>
       <div>
         <h1 className="text-2xl font-bold mb-4">Notes</h1>
         {/* Main form for adding notes */}

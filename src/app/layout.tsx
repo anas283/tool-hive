@@ -6,7 +6,7 @@ import Navbar from "./navbar";
 const instrumentSans = Instrument_Sans({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: "Tools Hub",
+  title: "Toolhive",
   description: "Simplify Your Workflow with Our All-in-One Digital Toolkit",
 };
 
