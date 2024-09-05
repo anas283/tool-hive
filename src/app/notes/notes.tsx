@@ -31,9 +31,7 @@ const Notes: React.FC = () => {
   }, []);
 
   useEffect(() => {
-    if (notes.length > 0) {
-      localStorage.setItem('notes', JSON.stringify(notes));
-    }
+    localStorage.setItem('notes', JSON.stringify(notes));
   }, [notes]);
 
   const addNote: SubmitHandler<FormValues> = (data) => {
@@ -62,7 +60,7 @@ const Notes: React.FC = () => {
   };
 
   return (
-    <div>
+    <div className="w-full">
       <div>
         <h1 className="text-2xl font-bold mb-4">Notes</h1>
         {/* Main form for adding notes */}
