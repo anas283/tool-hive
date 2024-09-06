@@ -6,17 +6,17 @@ import Navbar from "./navbar";
 const instrumentSans = Instrument_Sans({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: "Toolhive",
-  description: "Simplify Your Workflow with Our All-in-One Digital Toolkit",
+  title: "Toolhive: All-in-One Online Tools for Productivity & Workflow",
+  description: "Boost productivity with Toolhive’s free online tools—tailwind gradient generator, password generator, word counter, color palette generator, note-taking, and more. Simplify your workflow with our easy-to-use toolkit.",
   keywords: "Toolhive, digital toolkit, tailwind gradient generator, password generator, word counter, Lorem Ipsum generator, to-do list, notes app, color palette generator, productivity tools, online tools",
   openGraph: {
-    title: "Toolhive",
-    description: "Simplify Your Workflow with Our All-in-One Digital Toolkit",
+    title: "Toolhive: All-in-One Online Tools for Productivity & Workflow",
+    description: "Boost productivity with Toolhive’s free online tools—tailwind gradient generator, password generator, word counter, color palette generator, note-taking, and more. Simplify your workflow with our easy-to-use toolkit.",
     images: "/meta-image.png"
   },
   twitter: {
-    title: "Toolhive",
-    description: "Simplify Your Workflow with Our All-in-One Digital Toolkit",
+    title: "Toolhive: All-in-One Online Tools for Productivity & Workflow",
+    description: "Boost productivity with Toolhive’s free online tools—tailwind gradient generator, password generator, word counter, color palette generator, note-taking, and more. Simplify your workflow with our easy-to-use toolkit.",
     images: "/meta-image.png"
   }
 };
