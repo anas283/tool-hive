@@ -29,7 +29,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <GoogleTagManager gtmId="GTM-MX5G7RXD" />
+      <GoogleTagManager gtmId="G-NQH4FP695L" />
       <body className={instrumentSans.className}>
         <Navbar />
         {children}
