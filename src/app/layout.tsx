@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Instrument_Sans } from 'next/font/google'
 import "./globals.css";
 import Navbar from "./navbar";
+import { GoogleTagManager } from '@next/third-parties/google'
 
 const instrumentSans = Instrument_Sans({ subsets: ['latin'] })
 
@@ -28,6 +29,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <GoogleTagManager gtmId="GTM-MX5G7RXD" />
       <body className={instrumentSans.className}>
         <Navbar />
         {children}
