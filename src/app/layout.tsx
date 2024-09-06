@@ -3,6 +3,7 @@ import { Instrument_Sans } from 'next/font/google'
 import "./globals.css";
 import Navbar from "./navbar";
 import { GoogleTagManager } from '@next/third-parties/google'
+import { Analytics } from "@vercel/analytics/react"
 
 const instrumentSans = Instrument_Sans({ subsets: ['latin'] })
 
@@ -33,6 +34,7 @@ export default function RootLayout({
       <body className={instrumentSans.className}>
         <Navbar />
         {children}
+        <Analytics />
       </body>
     </html>
   );
